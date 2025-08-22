@@ -5,7 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Star, TrendingUp, Calendar, Clock } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://movie-recommendation-app-backend-6nqq.onrender.com';
 
 const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
